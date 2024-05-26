@@ -1,0 +1,35 @@
+.intro-screen {
+    background-image: url('../assets/background.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .monkey-image {
+    width: 150px;
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff9900;
+  }
+  

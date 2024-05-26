@@ -1,0 +1,23 @@
+.activity-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.match-count {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
